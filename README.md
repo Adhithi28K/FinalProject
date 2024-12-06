@@ -11,7 +11,7 @@ Welcome to the Azure OCR API, a robust and efficient tool to process images and 
 - Fully documented with interactive Swagger UI.
 
 ## 📽️ Live Demo
-- **Swagger UI**: [http://localhost:3000/api-docs](http://localhost:3000/api-docs)
+- **Swagger UI**: [http://137.184.101.63:3000/api-docs](http://137.184.101.63:3000/api-docs)
 
 ## 📌 Table of Contents
 1. [Project Setup](#project-setup)
