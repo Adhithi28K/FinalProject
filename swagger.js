@@ -16,7 +16,7 @@ const swaggerOptions = {
             {
                 url: 'http://137.184.101.63:3000', 
                 description: 'Digital Ocean server'
-            },
+            }
         ],
     },
     apis: ["./routes/*.js"], // Path to your route files
