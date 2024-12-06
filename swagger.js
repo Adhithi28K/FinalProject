@@ -10,8 +10,12 @@ const swaggerOptions = {
         },
         servers: [
             {
-                url: "http://localhost:3000",
-                description: "Local Development Server",
+                url: 'http://localhost:3000', 
+                description: 'Local server'
+            },
+            {
+                url: 'http://137.184.101.63:3000', 
+                description: 'Digital Ocean server'
             },
         ],
     },
