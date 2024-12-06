@@ -1,19 +1,19 @@
 # Azure OCR API
 
-## Overview
+## 🚀 Overview
 Welcome to the Azure OCR API, a robust and efficient tool to process images and extract text using Azure Cognitive Services. This API is designed to help developers integrate Optical Character Recognition (OCR) into their projects with ease.
 
-## Features
+## ⚙️ Features
 - Extract text from images (`POST /api/ocr/`).
 - Analyze specific regions of an image for text (`POST /api/ocr/extract-region`).
 - Reverse the extracted text (`POST /api/ocr/reverse-text`).
 - Check the API status and uptime (`GET /api/ocr/status`).
 - Fully documented with interactive Swagger UI.
 
-## Live Demo
+## 📽️ Live Demo
 - **Swagger UI**: [http://localhost:3000/api-docs](http://localhost:3000/api-docs)
 
-## Table of Contents
+## 📌 Table of Contents
 1. [Project Setup](#project-setup)
 2. [API Endpoints](#api-endpoints)
 3. [Error Handling](#error-handling)
@@ -26,7 +26,7 @@ Welcome to the Azure OCR API, a robust and efficient tool to process images and 
 
 ---
 
-## Project Setup
+## 🛠 Project Setup
 
 ### Prerequisites
 - **Node.js** and **npm** installed.
@@ -54,7 +54,7 @@ Welcome to the Azure OCR API, a robust and efficient tool to process images and 
    pm2 start app.js
 
 ---
-## API Endpoints
+## 🔗 API Endpoints
 ### Base URL
 ```bash
 http://localhost:3000/api/ocr
@@ -139,7 +139,7 @@ http://localhost:3000/api/ocr
   "reversedText": "dlroW olleH"
 }
 ```
-# Error Handling
+# 🛑 Error Handling
 
 The API returns consistent error responses for various scenarios:
 
@@ -152,7 +152,7 @@ The API returns consistent error responses for various scenarios:
   "error": "No file uploaded. Please upload an image."
 }
 ```
-# Usage Examples
+# 💠 Usage Examples
 
 ### Example Using `curl`
 ```bash
@@ -162,7 +162,7 @@ curl -X POST -F "file=@sample.jpg" http://localhost:3000/api/ocr/
 - Import the API endpoints into Postman from Swagger.
 - Test the endpoints interactively.
 
-# Environment Variables
+# 🌐 Environment Variables
 
 The following environment variables are required:
 
@@ -170,7 +170,7 @@ The following environment variables are required:
 - `AZURE_API_KEY`: Your Azure Cognitive Services API Key.
 - `AZURE_ENDPOINT`: Endpoint URL for Azure Cognitive Services.
   
-# Testing
+# 👩🏻‍💻 Testing
 
 ## 1. Local Testing
 
@@ -178,14 +178,14 @@ The following environment variables are required:
   ```bash
   node app.js
    ```
-Test with Swagger UI: http://localhost:3000/api-docs
+- Test with Swagger UI: http://localhost:3000/api-docs
 
 ## 2. Production Testing
 
 - Deploy to a cloud platform (e.g., DigitalOcean, AWS).
 - Test the API using the deployed URL.
 
-# Technologies Used
+# 📊 Technologies Used
 
 - **Backend:** Node.js, Express.js
 - **OCR:** Azure Cognitive Services
@@ -193,7 +193,7 @@ Test with Swagger UI: http://localhost:3000/api-docs
 - **Process Manager:** PM2
 - **Deployment:** DigitalOcean
 
-# FAQ
+# 📬 FAQ
 
 1. **What file formats are supported?**  
    The API supports `.jpg`, `.jpeg`, `.png`, and `.bmp` file formats.
@@ -204,12 +204,13 @@ Test with Swagger UI: http://localhost:3000/api-docs
 3. **What happens if no text is found?**  
    The API will return a response with `"extractedText": ""`.
 
-# Acknowledgements
+4. **How about quality of the image?**  
+   The image should be of some decent quality in order for OCR to process it smoothly.
+
+# ⚜️ Acknowledgements
 
 - **Azure Cognitive Services** for powering the OCR functionality.
 - **Swagger UI** for interactive API documentation.
 - **DigitalOcean** for hosting.
 
-> Thank You!! 
-> SAI ADHITHI KESARI
 
