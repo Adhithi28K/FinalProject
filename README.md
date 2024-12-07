@@ -55,7 +55,8 @@ Instructions for setting up the project.
    pm2 start app.js
 
 ---
-## 🔗 API Endpoints
+<h2 id="api-endpoints">🌐 API Endpoints</h2>
+Details about the API endpoints.
 ### Base URL
 ```bash
 http://localhost:3000/api/ocr
@@ -140,7 +141,8 @@ http://localhost:3000/api/ocr
   "reversedText": "dlroW olleH"
 }
 ```
-# 🛑 Error Handling
+<h2 id="error-handling">🛑 Error Handling</h2>
+How errors are handled in the project.
 
 The API returns consistent error responses for various scenarios:
 
@@ -163,7 +165,8 @@ The API returns consistent error responses for various scenarios:
   "error": "Failed to process the image. Please try again."
 }
 ```
-# 💠 Usage Examples
+<h2 id="usage-examples">💠 Usage Examples</h2>
+Examples of how to use the API.
 
 ### Example Using `curl`
 ```bash
@@ -173,15 +176,17 @@ curl -X POST -F "file=@sample.jpg" http://localhost:3000/api/ocr/
 - Import the API endpoints into Postman from Swagger.
 - Test the endpoints interactively.
 
-# 🌐 Environment Variables
+<h2 id="environment-variables">🌐 Environment Variables</h2>
+Details about required environment variables.
 
 The following environment variables are required:
 
 - `PORT`: Port on which the API runs (default: `3000`).
 - `AZURE_API_KEY`: Your Azure Cognitive Services API Key.
 - `AZURE_ENDPOINT`: Endpoint URL for Azure Cognitive Services.
-  
-# 👩🏻‍💻 Testing
+
+<h2 id="testing">👩🏻‍💻 Testing</h2>
+Instructions for testing the project.
 
 ## 1. Local Testing
 
@@ -196,7 +201,8 @@ The following environment variables are required:
 - Deploy to a cloud platform (e.g., DigitalOcean, AWS).
 - Test the API using the deployed URL.
 
-# 📊 Technologies Used
+<h2 id="technologies-used">📊 Technologies Used</h2>
+Technologies used in the project.
 
 - **Backend:** Node.js, Express.js
 - **OCR:** Azure Cognitive Services
@@ -204,7 +210,8 @@ The following environment variables are required:
 - **Process Manager:** PM2
 - **Deployment:** DigitalOcean
 
-# 📬 FAQ
+<h2 id="faq">📬 FAQ</h2>
+Frequently asked questions.
 
 1. **What file formats are supported?**  
    The API supports `.jpg`, `.jpeg`, `.png`, and `.bmp` file formats.
@@ -218,7 +225,8 @@ The following environment variables are required:
 4. **How about quality of the image?**  
    The image should be of some decent quality in order for OCR to process it smoothly.
 
-# ⚜️ Acknowledgements
+<h2 id="acknowledgements">⚜️ Acknowledgements</h2>
+Acknowledgements for contributions or references.
 
 - **Azure Cognitive Services** for powering the OCR functionality.
 - **Swagger UI** for interactive API documentation.
