@@ -14,7 +14,7 @@ Welcome to the Azure OCR API, a robust and efficient tool to process images and 
 - **Swagger UI**: [http://137.184.101.63:3000/api-docs](http://137.184.101.63:3000/api-docs)
 
 ## 📌 Table of Contents
-1. [🛠 Project Setup](#🛠-project-setup)
+1. [Project Setup](#project-setup)
 2. [API Endpoints](#api-endpoints)
 3. [Error Handling](#error-handling)
 4. [Usage Examples](#usage-examples)
@@ -26,7 +26,8 @@ Welcome to the Azure OCR API, a robust and efficient tool to process images and 
 
 ---
 
-## 🛠 Project Setup
+<h2 id="project-setup">🛠️ Project Setup</h2>
+Instructions for setting up the project.
 
 ### Prerequisites
 - **Node.js** and **npm** installed.
