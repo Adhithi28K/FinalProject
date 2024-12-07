@@ -162,6 +162,7 @@ The API returns consistent error responses for various scenarios:
   "error": "Failed to process the image. Please try again."
 }
 
+
 # 💠 Usage Examples
 
 ### Example Using `curl`
