@@ -160,7 +160,8 @@ The API returns consistent error responses for various scenarios:
 ```json
 {
   "error": "Failed to process the image. Please try again."
-}```
+}
+```
 
 # 💠 Usage Examples
 
