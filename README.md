@@ -152,6 +152,16 @@ The API returns consistent error responses for various scenarios:
   "error": "No file uploaded. Please upload an image."
 }
 ```
+### 500 Internal Server Error
+
+**Cause:** Server-side issues.
+
+#### Response:
+```json
+{
+  "error": "Failed to process the image. Please try again."
+}
+
 # 💠 Usage Examples
 
 ### Example Using `curl`
